@@ -13,13 +13,6 @@
 - 각자 담당 크루의 PR review & merge
 - 최종 review & merge 기한은 매주 금요일 23:59 까지
 
-## 멤버
-
-|                                         Backend                                          |                                         Backend                                          |                                         Backend                                          |                                            Backend                                         |               Backend               |
-| :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/77482065?v=4" width=100px alt="디노"/> | <img src="https://avatars.githubusercontent.com/u/64852591?v=4" width=100px alt="라온"/> |<img src="https://avatars.githubusercontent.com/u/94087228?v=4" width=100px alt="베베"/>  | <img src="https://avatars.githubusercontent.com/u/89302528?v=4" width=100px alt="리오"/> | <img src="https://avatars.githubusercontent.com/u/112045553?v=4" width=100px alt="준팍"/> |
-|                       [디노](https://github.com/jjongwa)                        |                         [라온](https://github.com/mcodnjs)                             |                          [베베](https://github.com/wonyongChoi05)                                  |                             [리오](https://github.com/Jaeyoung22)                            |      [준팍](https://github.com/junpakPark)               |
-
 
 ## 파일 작성 및 PR 규칙
 - 파일 명: 플랫폼_문제이름_닉네임.py
