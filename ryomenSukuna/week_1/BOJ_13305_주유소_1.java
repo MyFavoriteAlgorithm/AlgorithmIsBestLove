@@ -2,7 +2,7 @@ package week_1;
 
 import java.util.Scanner;
 
-public class BOJ_13305_주유소 {
+public class BOJ_13305_주유소_1 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
