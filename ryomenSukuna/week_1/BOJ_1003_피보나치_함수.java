@@ -2,7 +2,7 @@ package week_1;
 
 import java.util.Scanner;
 
-public class BOj_1003_피보나치_함수 {
+public class BOJ_1003_피보나치_함수 {
 
     static Integer[][] dp = new Integer[41][2];
 
