@@ -44,8 +44,8 @@ for i in range(N):
     pokedex[i+1] = pokemon_name
     inverted_pokedex[pokemon_name] = i+1
     
-print(pokedex)
-print(inverted_pokedex)
+#print(pokedex)
+#print(inverted_pokedex)
 #print('answer:')
 
 for i in range(M):
