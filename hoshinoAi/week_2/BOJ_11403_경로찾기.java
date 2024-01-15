@@ -22,11 +22,11 @@ public class BOJ_11403_경로찾기 {
             }
         }
 
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                for (int k = 0; k < N; k++) {
-                    if (arr[i][j] == 1 && arr[j][k] == 1) { // i k = 1 j = 0 1 2
-                        arr[i][k] = 1;
+        for (int k = 0; k < N; k++) {
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    if (arr[i][k] == 1 && arr[k][j] == 1) {
+                        arr[i][j] = 1;
                     }
                 }
             }
