@@ -23,7 +23,7 @@ for i in range(3):
 # 도: 0x1, 1x3, 개: 0x2, 1x2, 걸: 0x3, 1x1, 윷: 0x4, 모: 1x4
 
 for i in range(3):
-    print(data[i])
+    #print(data[i])
     summ = sum(data[i])
     if summ == 3:
         print('A')
