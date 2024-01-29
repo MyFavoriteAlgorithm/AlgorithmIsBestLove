@@ -63,7 +63,9 @@ public class BOJ_1012_배추 {
                     }
                 }
             }
+            sb.append(count).append("\n");
         }
+        System.out.println(sb);
     }
 
     private static void bfs(int x, int y) {
