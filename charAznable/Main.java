@@ -1,35 +1,27 @@
-import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        Scanner in = new Scanner(System.in);
-
-        while(true) {
-
-            int x = in.nextInt();
-            int y = in.nextInt();
-            int z = in.nextInt();
-
-            if(x == 0 && y == 0 && z == 0) break;
-
-
-            if((x * x + y * y) == z * z) {
-                System.out.println("right");
-            }
-            else if(x * x == (y * y + z * z)) {
-                System.out.println("right");
-            }
-            else if(y * y == (z * z + x * x)) {
-                System.out.println("right");
-            }
-            else {
-                System.out.println("wrong");
+        int i = 1;
+        int sum;
+        int j;
+        int total = 0;
+        while (i != 40) {
+            sum = 0;
+            j = i - 13;
+            if (j > 0) {
+                sum += j * 1000;
             }
 
+            if (i <= 26) {
+                sum += i * 1000;
+            }
+
+            System.out.println(sum);
+            total += sum;
+            i++;
         }
-
+        System.out.println(total);
     }
 
 }
